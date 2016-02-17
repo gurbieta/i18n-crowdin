@@ -1,0 +1,19 @@
+{
+  "name": "i18n-crowdin-cli",
+  "version": "1.2.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "i18n-crowdin": "./bin/i18n-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crowdin-api": "^1.0.1",
+    "glob": "^6.0.1",
+    "jszip": "^2.5.0"
+  }
+}
