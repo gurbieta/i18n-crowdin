@@ -1,6 +1,6 @@
 module.exports = function(text, jsFile) {
-	var singularRegex = new RegExp('msgid "(.*?)"\nmsgstr "(.*?)"', 'g');
-	var pluralRegex = new RegExp('msgid "(.*?)"\nmsgid_plural "(.*?)"\nmsgstr\\[0\\] "(.*?)"\nmsgstr\\[1\\] "(.*?)"', 'g');
+	var singularRegex = new RegExp('msgid "(.*?)"\nmsgstr "(.*?)"\n', 'g');
+	var pluralRegex = new RegExp('msgid "(.*?)"\nmsgid_plural "(.*?)"\nmsgstr\\[0\\] "(.*?)"\nmsgstr\\[1\\] "(.*?)"\n', 'g');
 
 	var translations = {};
 
