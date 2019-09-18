@@ -14,6 +14,6 @@
   "dependencies": {
     "crowdin-api": "^1.0.1",
     "glob": "^6.0.1",
-    "jszip": "^2.5.0"
+    "jszip": "^3.2.2"
   }
 }
